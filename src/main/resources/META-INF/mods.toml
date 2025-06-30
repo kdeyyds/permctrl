@@ -1,0 +1,9 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="permctrl"
+version="1.0.0"
+displayName="Permission Control"
+description="A simple permission mod for NeoForge 1.21.1"

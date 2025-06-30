@@ -1,0 +1,17 @@
+plugins {
+    id 'net.neoforged.gradle.userdev' version '7.0.93'
+}
+
+group = 'com.sokach'
+version = '1.0.0'
+archivesBaseName = 'permissioncontrol'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.21.1'
+}
+
+dependencies {
+    implementation 'net.neoforged:neoforge:21.1.168'
+}
