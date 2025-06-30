@@ -15,13 +15,3 @@ minecraft {
 dependencies {
     implementation 'net.neoforged:neoforge:21.1.168'
 }
-
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        mavenCentral()
-        maven {
-            url = 'https://repo.neoforged.net/repository/maven-public/'
-        }
-    }
-}
