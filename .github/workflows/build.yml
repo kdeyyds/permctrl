@@ -21,7 +21,7 @@ jobs:
         java-version: 17
 
     - name: Build mod
-      run: gradle build
+      run: gradle build --stacktrace --info
 
     - name: Upload mod jar
       uses: actions/upload-artifact@v4
